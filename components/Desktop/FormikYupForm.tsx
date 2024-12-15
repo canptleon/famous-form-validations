@@ -46,12 +46,12 @@ const FormikYupForm: React.FC<Props> = ({ id }) => {
   });
 
   return (
-    <div className="flex justify-center items-center h-screen">
-      <div className="w-[500px] p-8 border border-gray-300 rounded-lg shadow-lg">
-        <h2 className="text-2xl font-semibold mb-6 text-center">Registration Form (Formik + Yup)</h2>
+    <div className="flex justify-center items-center">
+      <div className="w-[500px] p-8 [background-size:1003px] [box-shadow:inset_0px_0px_13px_1px_#01010130] bg-center border-[3px] border-[solid] border-[white] [filter:drop-shadow(0px_0px_11px_white)] rounded-[20px] bg-[linear-gradient(to_right,_#d16ba5,_#ca74b5,_#c17dc2,_#b686ce,_#aa8fd8,_#9b9ce7,_#89a9f2,_#76b5fa,_#54c9ff,_#37dbff,_#3aecfe,_#5ffbf1)]">
+        <h2 className="text-xl font-semibold mb-6 text-center text-white">Registration Form (Formik + Yup)</h2>
         <form onSubmit={formik.handleSubmit} className="space-y-4">
           <div>
-            <label htmlFor="name" className="block text-sm font-medium text-gray-700">
+            <label htmlFor="name" className="block text-sm font-medium text-white">
               Name
             </label>
             <input
@@ -71,7 +71,7 @@ const FormikYupForm: React.FC<Props> = ({ id }) => {
           </div>
 
           <div>
-            <label htmlFor="email" className="block text-sm font-medium text-gray-700">
+            <label htmlFor="email" className="block text-sm font-medium text-white">
               Email
             </label>
             <input
@@ -91,7 +91,7 @@ const FormikYupForm: React.FC<Props> = ({ id }) => {
           </div>
 
           <div>
-            <label htmlFor="gender" className="block text-sm font-medium text-gray-700">
+            <label htmlFor="gender" className="block text-sm font-medium text-white">
               Gender
             </label>
             <select
@@ -114,7 +114,7 @@ const FormikYupForm: React.FC<Props> = ({ id }) => {
           </div>
 
           <div>
-            <label htmlFor="phone" className="block text-sm font-medium text-gray-700">
+            <label htmlFor="phone" className="block text-sm font-medium text-white">
               Phone Number
             </label>
             <input
@@ -134,7 +134,7 @@ const FormikYupForm: React.FC<Props> = ({ id }) => {
           </div>
 
           <div>
-            <label htmlFor="password" className="block text-sm font-medium text-gray-700">
+            <label htmlFor="password" className="block text-sm font-medium text-white">
               Password
             </label>
             <input
@@ -154,7 +154,7 @@ const FormikYupForm: React.FC<Props> = ({ id }) => {
           </div>
 
           <div>
-            <label htmlFor="confirmPassword" className="block text-sm font-medium text-gray-700">
+            <label htmlFor="confirmPassword" className="block text-sm font-medium text-white">
               Confirm Password
             </label>
             <input

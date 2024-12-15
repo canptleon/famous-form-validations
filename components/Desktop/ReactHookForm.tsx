@@ -21,14 +21,14 @@ function ReactHookForm(props: Props) {
   const password = watch("password");
 
   return (
-    <div className="flex justify-center items-center h-screen">
-      <div className="w-[500px] p-8 border border-gray-300 rounded-lg shadow-lg">
-        <h2 className="text-2xl font-semibold mb-6 text-center">
+    <div className="flex justify-center items-center">
+      <div className="w-[500px] p-8 [background-size:1003px] [box-shadow:inset_0px_0px_13px_1px_#01010130] bg-center border-[3px] border-[solid] border-[white] [filter:drop-shadow(0px_0px_11px_white)] rounded-[20px] bg-[linear-gradient(to_right,_#6ba5d1,_#71a1dc,_#829be3,_#9a92e5,_#b587e0,_#b779d7,_#ba69cd,_#bd58c1,_#a644b8,_#8e30b0,_#731ba8,_#5503a1)]">
+        <h2 className="text-xl font-semibold mb-6 text-center text-white">
           Registration Form (React Hook Form)
         </h2>
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
           <div>
-            <label htmlFor="name" className="block text-sm font-medium text-gray-700">
+            <label htmlFor="name" className="block text-sm font-medium text-white">
               Name
             </label>
             <input
@@ -46,7 +46,7 @@ function ReactHookForm(props: Props) {
           </div>
 
           <div>
-            <label htmlFor="email" className="block text-sm font-medium text-gray-700">
+            <label htmlFor="email" className="block text-sm font-medium text-white">
               Email
             </label>
             <input
@@ -67,7 +67,7 @@ function ReactHookForm(props: Props) {
           </div>
 
           <div>
-            <label htmlFor="gender" className="block text-sm font-medium text-gray-700">
+            <label htmlFor="gender" className="block text-sm font-medium text-white">
               Gender
             </label>
             <select
@@ -88,7 +88,7 @@ function ReactHookForm(props: Props) {
           </div>
 
           <div>
-            <label htmlFor="phone" className="block text-sm font-medium text-gray-700">
+            <label htmlFor="phone" className="block text-sm font-medium text-white">
               Phone
             </label>
             <input
@@ -109,7 +109,7 @@ function ReactHookForm(props: Props) {
           </div>
 
           <div>
-            <label htmlFor="password" className="block text-sm font-medium text-gray-700">
+            <label htmlFor="password" className="block text-sm font-medium text-white">
               Password
             </label>
             <input
@@ -130,7 +130,7 @@ function ReactHookForm(props: Props) {
           </div>
 
           <div>
-            <label htmlFor="confirmPassword" className="block text-sm font-medium text-gray-700">
+            <label htmlFor="confirmPassword" className="block text-sm font-medium text-white">
               Confirm Password
             </label>
             <input

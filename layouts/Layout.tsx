@@ -21,7 +21,7 @@ function Layout(props: LayoutProps) {
           <MobileFooter/>
         </>
       ) : (
-        <div className="max-h-screen">
+        <div className="max-h-screen h-screen flex flex-col justify-between py-3">
           <DesktopHeader />
           {props.children}
           <DesktopFooter/>

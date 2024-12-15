@@ -52,9 +52,9 @@ const ReactFinalForm: React.FC<Props> = ({ id }) => {
   };
 
   return (
-    <div className="flex justify-center items-center h-screen">
-      <div className="w-[500px] p-8 border border-gray-300 rounded-lg shadow-lg">
-        <h2 className="text-2xl font-semibold mb-6 text-center">
+    <div className="flex justify-center items-center">
+      <div className="w-[500px] p-8 [background-size:1003px] [box-shadow:inset_0px_0px_13px_1px_#01010130] bg-center border-[3px] border-[solid] border-[white] [filter:drop-shadow(0px_0px_11px_white)] rounded-[20px] bg-[linear-gradient(to_right,_#5503a1,_#0056ce,_#007ed6,_#009fc6,_#00bab3,_#3ac3a3,_#64cb8f,_#8cd07a,_#9cc86a,_#abc05c,_#b8b751,_#c4ae4a)]">
+        <h2 className="text-xl font-semibold mb-6 text-center text-white">
           Registration Form (React Final Form)
         </h2>
         <Form
@@ -65,7 +65,7 @@ const ReactFinalForm: React.FC<Props> = ({ id }) => {
               <div>
                 <label
                   htmlFor="name"
-                  className="block text-sm font-medium text-gray-700"
+                  className="block text-sm font-medium text-white"
                 >
                   Name
                 </label>
@@ -91,7 +91,7 @@ const ReactFinalForm: React.FC<Props> = ({ id }) => {
               <div>
                 <label
                   htmlFor="email"
-                  className="block text-sm font-medium text-gray-700"
+                  className="block text-sm font-medium text-white"
                 >
                   Email
                 </label>
@@ -117,7 +117,7 @@ const ReactFinalForm: React.FC<Props> = ({ id }) => {
               <div>
                 <label
                   htmlFor="gender"
-                  className="block text-sm font-medium text-gray-700"
+                  className="block text-sm font-medium text-white"
                 >
                   Gender
                 </label>
@@ -146,7 +146,7 @@ const ReactFinalForm: React.FC<Props> = ({ id }) => {
               <div>
                 <label
                   htmlFor="phone"
-                  className="block text-sm font-medium text-gray-700"
+                  className="block text-sm font-medium text-white"
                 >
                   Phone
                 </label>
@@ -172,7 +172,7 @@ const ReactFinalForm: React.FC<Props> = ({ id }) => {
               <div>
                 <label
                   htmlFor="password"
-                  className="block text-sm font-medium text-gray-700"
+                  className="block text-sm font-medium text-white"
                 >
                   Password
                 </label>
@@ -198,7 +198,7 @@ const ReactFinalForm: React.FC<Props> = ({ id }) => {
               <div>
                 <label
                   htmlFor="confirmPassword"
-                  className="block text-sm font-medium text-gray-700"
+                  className="block text-sm font-medium text-white"
                 >
                   Confirm Password
                 </label>
